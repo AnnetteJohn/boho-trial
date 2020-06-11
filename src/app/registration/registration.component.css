@@ -1,0 +1,28 @@
+.bg{ 
+    background : url('/assets/login.jpg');
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+
+.f-deet{
+    margin-top: 110px;
+    float: right;
+    
+}
+
+
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+}
+
+/* form {
+    font-size: 60px;
+} */
+

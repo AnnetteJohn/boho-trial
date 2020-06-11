@@ -1,0 +1,65 @@
+<body class="bg h-100 ">
+    
+    <div class="container h-100"> 
+
+        <div class="row">
+    
+            <div class="col lg-4">
+
+            </div>
+    
+            <div class=" f-deet col-lg-4  ">
+                <h1> Register </h1>
+                <hr>
+                <form #postForm = "ngForm" (ngSubmit)="onCreatePost(postForm.value)">
+                    <div class="form-group">
+                        <label for="InputFName">First Name</label>
+                        <input type="text" ngModel name="name" class="form-control " id="InputFName"  placeholder="First Name">
+                        
+                      </div>
+                      <div class="form-group">
+                        <label for="InputLName">Last Name</label>
+                        <input type="text" ngModel name="lastname" class="form-control" id="InputLName" placeholder="Last Name">
+                      </div>
+                    <div class="form-group">
+                      <label for="InputEmail1">Email address</label>
+                      <input type="email" ngModel name="email" class="form-control " id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="InputPassword1">Password</label>
+                      <input type="password" ngModel name="password" class="form-control" id="InputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <label for="InputAddress"> Address </label>
+                      <input type="text" ngModel name="address" class="form-control" id="InputAddress" placeholder="Address">
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                    </div>
+                    
+										
+					
+                    
+                    <button type="submit" class="btn btn-success">Submit</button>
+                    <br>
+                    <span class="txt1">
+                        Not a member?
+                        <br>
+                        <a  routerLink="/register">
+                            Sign up now							
+                        </a>
+                    </span>
+                  </form>
+            </div>
+            
+    
+        </div>
+        
+    
+     </div>
+    
+    
+</body>
+ 

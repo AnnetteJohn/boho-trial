@@ -1,0 +1,14 @@
+/* :host ::ng-deep span {
+    
+    margin-right: 5px;
+}
+ */
+
+
+ :host ::ng-deep button {
+     margin-left: 100px;
+ }
+
+ :host ::ng-deep .item {
+     margin: auto;
+ }

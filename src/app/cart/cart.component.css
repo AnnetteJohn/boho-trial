@@ -1,0 +1,11 @@
+h1 {
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    
+}
+
+
+.place {
+    float: right;
+}

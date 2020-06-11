@@ -1,0 +1,36 @@
+
+<div class= "row ml-1">
+    <div class="col-lg-4 item" >
+        <img  height="500px" width="600px" src='http://localhost:3005/{{products.productImagePath}}'>
+    </div>
+    <div class="col-lg-8 detail item">
+        <h3> Product Details </h3>
+
+        <hr>
+
+        <h4> Product Name : {{products.name}} </h4>
+        <hr>
+        <span> Price : {{products.price}}Rs. </span>
+        <hr>
+        <p> Description: {{products.description}}</p>
+        <hr>
+        <h6> Quantity : </h6>
+        <span>
+            <select name="" id="" #ingre_qty>
+                <option> 1</option>
+                <option> 2</option>
+                <option> 3</option>
+                <option> 4</option>
+                <option> 5</option>
+            </select>
+        </span>
+        
+        
+        <button (click)="addTocart()" class="btn btn-warning text-light btn-sm">
+            Add to Cart
+            
+        </button>
+    </div>
+
+    
+</div>
